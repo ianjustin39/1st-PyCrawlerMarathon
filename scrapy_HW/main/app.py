@@ -5,8 +5,8 @@ from scrapy.utils.project import get_project_settings
 def main():
 
     url_list = [
-        'https://www.ptt.cc/bbs/Gossiping/M.1581055706.A.1EB.html',
-        'https://www.ptt.cc/bbs/Gossiping/M.1581055788.A.7BC.html'
+        'https://www.ptt.cc/bbs/Gossiping',
+        'https://www.ptt.cc/bbs/NBA'
     ]
 
     process = CrawlerProcess(get_project_settings())
